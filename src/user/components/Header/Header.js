@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom';
 
 class Navbar extends React.Component {
   render() {
@@ -43,7 +44,7 @@ class Navbar extends React.Component {
                   <a href="page-photo.html">Photos</a>
                 </li>
                 <li>
-                  <a href="">Espace membre</a>
+                 <Link to ="/member-space"> <a href="">Espace membre</a></Link>
                 </li>
               </ul>
             </div>
