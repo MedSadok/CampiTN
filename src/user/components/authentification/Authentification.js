@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Signup from "./SignUp";
 import SignIn from "./SignIn";
-import Authentification from './Authentification.css';
+import  './Authentification.css';
 
 class Authenticate extends Component {
   render() {

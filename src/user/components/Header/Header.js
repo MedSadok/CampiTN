@@ -46,6 +46,9 @@ class Navbar extends React.Component {
                 <li>
                  <Link to ="/member-space"> <a href="">Espace membre</a></Link>
                 </li>
+                <li>
+                 <Link to ="/ProfilUser"> <a href="">Profil</a></Link>
+                </li>
               </ul>
             </div>
           </nav>
