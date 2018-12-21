@@ -44,10 +44,10 @@ class Navbar extends React.Component {
                   <a href="page-photo.html">Photos</a>
                 </li>
                 <li>
-                 <Link to ="/member-space"> <a href="">Espace membre</a></Link>
+                 <Link to ="/member-space"><a href="">Espace membre</a></Link>
                 </li>
                 <li>
-                 <Link to ="/ProfilUser"> <a href="">Profil</a></Link>
+                 <Link to ="/ProfilUser"><a href="">Profil</a></Link>
                 </li>
               </ul>
             </div>

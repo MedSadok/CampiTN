@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Open+Sans:300,400,400i,600,700,700i");
-@import "../libs/bootstrap-4.1.0/bootstrap.min.css";
-@import "../libs/jquery.magnific-popup/magnific-popup.css";
-@import "../libs/owlcarousel2-2.3.4/assets/owl.carousel.min.css";
-@import "../libs/fontawesome-free-5.0.13/css/fontawesome-all.min.css";
+@import "/libs/bootstrap-4.1.0/bootstrap.min.css";
+@import "/libs/jquery.magnific-popup/magnific-popup.css";
+@import "/libs/owlcarousel2-2.3.4/assets/owl.carousel.min.css";
+@import "/libs/fontawesome-free-5.0.13/css/fontawesome-all.min.css";
 
 html,
 body,
@@ -315,6 +315,7 @@ p {
   color: #000;
   cursor: pointer;
   background-color: #fecb2f;
+  height: 45px;
 }
 .sv_btn.small_btn {
   padding: 7px 20px;
@@ -388,7 +389,7 @@ p {
   height: 6px;
   background-color: #282828;
 }
-/********************BG-IMG********************/
+/********************BG-img********************/
 .bg_img {
   background-position: center center;
   background-size: cover;
@@ -849,20 +850,20 @@ p {
 }
 /*slide background image*/
 .item_mainslide_1 {
-  background-image: url(/images/sl1.jpg);
+  background-image: url('/images/sl1.jpg');
   background-position: center top;
   height: 1000px;
 }
 .item_mainslide_2 {
-  background-image: url(/images/sl2.jpg);
+  background-image: url('/images/sl2.jpg');
   background-position: center bottom;
   height: 1000px;
 }
-.item_mainslide_3 {
-  background-image: url(/images/campingbg2.jpg);
+/*.item_mainslide_3 {
+  background-image: url('images/campingbg2.jpg');
   background-position: center bottom;
   height: 1000px;
-}
+}*/
 /*END slide background image*/
 .main_big_slider .psev_table {
   background-repeat: no-repeat;
@@ -922,7 +923,7 @@ p {
 /******************************************************/
 .about_text_main {
   /*background-color:#f4f4f4;
-	background-image:url(../images/icob_bg.png);*/
+	background-image:url('/images/icob_bg.png');*/
   background-repeat: no-repeat;
   background-size: cover;
   padding: 100px;
@@ -950,7 +951,7 @@ p {
 }
 .vide_block {
   min-height: 500px;
-  background-image: url(../images/video.jpg);
+  background-image: url('/images/video.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1167,7 +1168,7 @@ p {
 /***************************************************/
 .review_form_line {
   background-color: #f4f4f4;
-  background-image: url(../images/reviewbg4.jpg);
+  background-image: url('/images/reviewbg4.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1404,31 +1405,31 @@ form .filed_form textarea:-moz-placeholder {
   background-position: center center;
 }
 /*DEO PAGE BACKGROUND*/
-.pade_bg1 {
-  background-image: url(../images/page_head_team.jpg);
+/*.pade_bg1 {
+  background-image: url('/images/page_head_team.jpg');
 }
 .pade_bg2 {
-  background-image: url(../images/kevin-birj-bg.jpg);
+  background-image: url('/images/kevin-birj-bg.jpg');
 }
 .pade_bg3 {
-  background-image: url(../images/sl2.jpg);
+  background-image: url('/images/sl2.jpg');
 }
 .pade_bg4 {
-  background-image: url(../images/campingbg2.jpg);
+  background-image: url(images/campingbg2.jpg);
   background-position: center bottom;
 }
 .pade_bg5 {
-  background-image: url(../images/sl1.jpg);
+  background-image: url('/images/sl1.jpg');
 }
 .pade_bg6 {
-  background-image: url(../images/newsbg.jpg);
+  background-image: url('/images/newsbg.jpg');
 }
 .header_title h1 {
   color: #fff;
 }
 .header_title .container {
   z-index: 2;
-}
+}*/
 /*PAGE LIST BREADCRAMPS*/
 .page-list {
   margin-top: 10px;
@@ -2179,7 +2180,9 @@ form .filed_form textarea:-moz-placeholder {
   top: 0;
   left: 0;
 }
-/*.top_nav_links .navbar-nav > li > a {
+.top_nav_links .navbar-nav > li > a {
   color: black;
 }
-*/
+
+
+

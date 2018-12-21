@@ -8,7 +8,7 @@ class Footer extends React.Component {
           <div className="row">
             <div className="col-md-6 col-lg-3 footer_block">
               <a href="index.html">
-                <img src="/images/footer_logo.png" />
+                <img src="assets/images/footer_logo.png" alt=""/>
               </a>
               <p className="copy">
                 Copyrights 2018,

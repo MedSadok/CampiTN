@@ -5,6 +5,7 @@ import Advantagelist from "../Advantagelist/Advantagelist";
 import Latestnews from "../Latestnews/Latestnews";
 import Newsletter from "../Newsletter/Newsletter";
 import Footer from "../Footer/Footer";
+import  "../../Styles.css";
 
 class Home extends Component {
   render() {

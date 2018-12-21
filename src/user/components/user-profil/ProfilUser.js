@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-
 import Profil from "./Profil";
 import './Profil.css';
 
