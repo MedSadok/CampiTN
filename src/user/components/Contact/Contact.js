@@ -15,8 +15,6 @@ class Contact extends React.Component {
         
       <div className="contact-section">
 			<div className="container">
-        
-         
                <form>
                <div className="col-md-6">
                   <div className="form-group">
@@ -49,24 +47,20 @@ class Contact extends React.Component {
                   </div>
                   </div>
                   <div class="col-md-6">
-			  			<div className="form-group">
-			  				<label for ="description"> Message</label>
-			  			 	<textarea  className="form-control" id="description" placeholder="Enter Your Message"></textarea>
-			  			</div>
+                    <div className="form-group">
+                      <label for ="description"> Message</label>
+                      <textarea  className="form-control" id="description" placeholder="Enter Your Message"></textarea>
+                    </div>
                   </div>
-
-                  
-                  
                 </form>
-                <div>
-                <div className="button">
-			  				<button type="button" className="btn btn-primary"><i class="fa fa-paper-plane" ></i>  Send Message</button>
-			  			</div>
-                  <button type="reset" className="btn btn-danger">
-                    reset
-                  </button>
-                  </div>
                 </div>
+                
+                <div className="buttons ">
+                  <button  className="btn btn-primary"><i class="fa fa-paper-plane" ></i> Send Message  </button>
+                  <button type="reset" className="btn btn-danger"> reset</button>
+                </div>
+               
+               
                 </div>
 
 

@@ -44,3 +44,16 @@ label{
   justify-content: space-between;
   
 }
+.buttons{
+  align-self: flex-end;
+  display: flex;
+  justify-content: flex-end;
+  align-items:flex-end;
+  padding-right: 180px;
+}
+.btn{
+  width: 100px;
+  height: 50px;
+  margin:10px;
+
+}
