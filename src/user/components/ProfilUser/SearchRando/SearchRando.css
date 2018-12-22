@@ -1,0 +1,17 @@
+.rando {
+    height: 800px;
+    border: 1px solid grey;
+    margin-left: 40px;
+  }
+  
+  .allRando {
+    border: 1px solid;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-bottom: 20px;
+    width: 860px;
+  }
+  i {
+    color: azure;
+  }
+  

@@ -1,0 +1,32 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+  }
+  .nav a {
+    color: black;
+  }
+  
+  .nav a:hover {
+    color: rgb(255, 217, 0);
+  }
+  
+  .membre {
+    /* border: solid; */
+    display: flex;
+    margin-top: 50px;
+  }
+  .profilformorganiz {
+    display: flex;
+  }
+  .formorganiz {
+    border: 1px solid grey;
+  
+    margin-left: 110px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+  }
+  .profilformorganiz {
+    margin-top: 50px;
+  }
+  

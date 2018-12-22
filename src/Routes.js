@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './user/components/Home/home.js';
 import Admin from './Admin/Admin/Admin';
 import Authenticate from './user/components/authentification/Authentification.js';
-import Randonnee from './user/components/ListRondonee/ListRondonnee';
-import ProfilUser from './user/components/user-profil/ProfilUser';
-import Contact from './user/components/Contact/Contact';
+import ProfilUser from './user/components/ProfilUser/ProfilUser.js';
+import Contact from './user/components/Contact/Contact.js';
+import Randonnee from './user/components/ListRondonee/ListRondonnee.js';
 
 const Routes = () =>{
     return (
