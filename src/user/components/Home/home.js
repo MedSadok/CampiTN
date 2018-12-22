@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Navbar from '../Header/Header'
+import Header from '../Header/Header';
 import Slider from "../Slider/Slider";
 import Advantagelist from "../Advantagelist/Advantagelist";
 import Latestnews from "../Latestnews/Latestnews";
@@ -12,7 +12,7 @@ class Home extends Component {
     return (
       <div className="App">
       
-      <Navbar />
+      <Header />
        <Slider />
 
       <Advantagelist />

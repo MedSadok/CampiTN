@@ -5,6 +5,7 @@ import Admin from './Admin/Admin/Admin';
 import Authenticate from './user/components/authentification/Authentification.js';
 import Randonnee from './user/components/ListRondonee/ListRondonnee';
 import ProfilUser from './user/components/user-profil/ProfilUser';
+import Contact from './user/components/Contact/Contact';
 
 const Routes = () =>{
     return (
@@ -15,6 +16,7 @@ const Routes = () =>{
         <Route path ="/member-space" component={Authenticate}/>
         <Route path ="/Randonnée" component={Randonnee}/>
         <Route path ="/ProfilUser" component={ProfilUser}/>
+        <Route path ="/Contact" component={Contact}/>
 
         </Switch>
     </Router>);

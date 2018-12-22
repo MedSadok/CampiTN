@@ -1,7 +1,7 @@
 import React from "react";
 import {Link} from 'react-router-dom';
 
-class Navbar extends React.Component {
+class Header extends React.Component {
   render() {
     return (
       <header className="main_header fixed_header transparen_bg_head">
@@ -11,20 +11,10 @@ class Navbar extends React.Component {
               <img src="logo_head.png" alt=""/>
             </a>
           </div>
-          <div className="navbar-expand-lg nav_btn_toggle">
-            <button
-              className="navbar-toggler open_mobile_menu"
-              type="button"
-              data-target="#topNavMobile"
-            >
-              <span className="navbar-toggler-icon">
-                <i className="fas fa-bars"/>
-              </span>
-            </button>
-          </div>
-          <nav className="top_nav_links navbar navbar-expand-lg">
-            <div className="collapse navbar-collapse" id="topNav">
-              <ul className="navbar-nav mr-auto">
+          
+          <nav className="top_nav_links Header Header-expand-lg">
+            <div className="collapse Header-collapse" id="topNav">
+              <ul className="Header-nav mr-auto">
                 <li>
                   <a href="index.html">Accueil</a>
                 </li>
@@ -49,6 +39,9 @@ class Navbar extends React.Component {
                 <li>
                  <Link to ="/ProfilUser"><a href="">Profil</a></Link>
                 </li>
+                <li>
+                 <Link to ="/Contact"><a href="">Contact</a></Link>
+                </li>
               </ul>
             </div>
           </nav>
@@ -57,4 +50,4 @@ class Navbar extends React.Component {
     );
   }
 }
-export default Navbar;
+export default Header;
