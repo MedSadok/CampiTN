@@ -1,0 +1,19 @@
+.single_cool_fact {
+    font-size: 18px;
+  }
+  .cool_fact_icon_img {
+    margin-bottom: 10px;
+    font-size:34px;
+  }
+  .cool_fact_name {
+    margin-bottom: 23px;
+    font-size: 28px;
+  }
+  .service{
+    width: 100px;
+  }
+
+  #service-container{
+    height: 350px;
+    margin-top: 80px;
+  }

@@ -1,6 +1,9 @@
 .formulaire {
     display: flex;
     flex-direction: column;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 40px;
   }
   form.example input[type="text"] {
     padding: 10px;
@@ -11,24 +14,7 @@
     background: #f1f1f1;
   }
   
-  form.example button {
-    float: left;
-    width: 8%;
-    padding: 10px;
-    background: #f3bc21;
-    color: white;
-    font-size: 17px;
-    border: 1px solid grey;
-    border-left: none;
-    cursor: pointer;
-  }
-  
-  form {
-    display: flex;
-    margin-top: 50px;
-    margin-left: 30px;
-    margin-bottom: 40px;
-  }
+
   
   form.example button:hover {
     background: #daa30b;

@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import Navbar from "../Header/Navbar";
+import Footer from "../Footer/Footer";
 import  "./listRondonne.css";
 
 const rando = [
@@ -32,18 +34,20 @@ const RandoCard = props => {
   const randos = props.rando;
 
   return (
-    <div className="Rando-card">
-      <img src={randos.img} alt="" />
-      <div className="detail">
-        <span className="rando-title">{randos.title}</span>
-        <div className="sub-detail">
-          <span>{randos.type}</span>
-          <span>{randos.location}</span>
+   
+      <div className="Rando-card">
+        <img src={randos.img} alt="" className="rando-img"/>
+        <div className="detail">
+          <span className="rando-title">{randos.title}</span>
+          <div className="sub-detail">
+            <span> Type: {randos.type}</span>
+            <span>Distination: {randos.location}</span>
+          </div>
+          <span className="price">Prix: {randos.price} DT</span>
+          <p className="parag">{randos.descreption}</p>
         </div>
-        <span className="price">{randos.price} DT</span>
-        <p className="parag">{randos.descreption}</p>
       </div>
-    </div>
+
   );
 };
 
@@ -63,26 +67,30 @@ class Randonnée extends Component {
   };
   render() {
     return (
+      <div>
+        <Navbar/>
         <div className="RandoContainer">
-        <input
-          placeholder="Chercher une randonnée ..."
-          value={this.state.searchRando}
-          onChange={this.Search}
-          className="SearchBar"
-        />
-        <div className="rando-card">
-          {this.state.Rando
-            .filter(
-              el =>
-                el.title
-                  .toLowerCase()
-                  .indexOf(this.state.searchRando.toLowerCase()) !== -1
-            )
-            .map(card => (
-              <RandoCard rando={card} />
-            ))}
+          <input
+            placeholder="Chercher une randonnée ..."
+            value={this.state.searchRando}
+            onChange={this.Search}
+            className="SearchBar"
+          />
+          <div className="rando-card">
+            {this.state.Rando
+              .filter(
+                el =>
+                  el.title
+                    .toLowerCase()
+                    .indexOf(this.state.searchRando.toLowerCase()) !== -1
+              )
+              .map(card => (
+                <RandoCard rando={card} />
+              ))}
+          </div>
         </div>
-      </div>
+      <Footer/>
+    </div>
     );
   }
 }

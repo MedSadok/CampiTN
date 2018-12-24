@@ -1,53 +1,44 @@
-import React from "react";
-import {Link} from 'react-router-dom';
+import React, { Component } from 'react';
+import Navbar from "./Navbar";
+import "./Header.css";
 
-class Header extends React.Component {
+class Header extends Component {
   render() {
     return (
-      <header className="main_header fixed_header transparen_bg_head">
-        <div className="container clearfix">
-          <div className="logo_head">
-            <a href="">
-              <img src="logo_head.png" alt=""/>
-            </a>
-          </div>
-          
-          <nav className="top_nav_links Header Header-expand-lg">
-            <div className="collapse Header-collapse" id="topNav">
-              <ul className="Header-nav mr-auto">
-                <li>
-                  <a href="index.html">Accueil</a>
-                </li>
-                <li>
-                  <a href="page.html">A propos</a>
-                </li>
-                <li>
-                  <Link to ="/Randonnée"><a href="">Randonnées</a></Link>
-                </li>
-                <li className="">
-                  <a href="services-category.html">Services</a>
-                </li>
-                <li className="">
-                  <a href="news-category.html">Conseils</a>
-                </li>
-                <li>
-                  <a href="page-photo.html">Photos</a>
-                </li>
-                <li>
-                 <Link to ="/member-space"><a href="">Espace membre</a></Link>
-                </li>
-                <li>
-                 <Link to ="/ProfilUser"><a href="">Profil</a></Link>
-                </li>
-                <li>
-                 <Link to ="/Contact"><a href="">Contact</a></Link>
-                </li>
-              </ul>
+      <div>
+        <Navbar/>
+        <div id="carousel-example-generic" className="carousel slide" data-ride="carousel">
+ 
+          <ol className="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" className="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          </ol>
+
+          <div className="carousel-inner" role="listbox">
+            <div className="item active">
+              <img src="https://images.pexels.com/photos/17729/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=650&w=940" alt="..." className="img"/>
             </div>
-          </nav>
+            <div className="item">
+              <img src="https://images.pexels.com/photos/1076081/pexels-photo-1076081.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="..." className="img"/>
+            </div>
+            <div className="item">
+              <img src="https://images.pexels.com/photos/358423/pexels-photo-358423.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="..." className="img"/>
+            </div>
+          </div>
+          <a className="left carousel-control" role="button" data-slide="prev">
+            <span className="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span className="sr-only">Previous</span>
+          </a>
+          <a className="right carousel-control" role="button" data-slide="next">
+            <span className="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span className="sr-only">Next</span>
+          </a>
         </div>
-      </header>
+      </div>
     );
   }
 }
+
+
 export default Header;

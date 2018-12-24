@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./Footer.css"
 class Footer extends React.Component {
   render() {
     return (
@@ -7,21 +7,16 @@ class Footer extends React.Component {
         <div className="container">
           <div className="row">
             <div className="col-md-6 col-lg-3 footer_block">
-              <a href="index.html">
-                <img src="/images/footer_logo.png" />
-              </a>
-              <p className="copy">
+            <h6 className="footer_block_title">Campi.tn</h6>
+              <p >
                 Copyrights 2018,
                 <br />
-                HTML Template <br />
                 all rights reserved
               </p>
             </div>
             <div className="col-md-6 col-lg-3 footer_block">
               <h6 className="footer_block_title">Apropos</h6>
               <p>
-                Lorem Ipsum is simply dummy
-                <br />
                 text of the printing and
                 <br />
                 typesetting industry.
@@ -30,11 +25,13 @@ class Footer extends React.Component {
             <div className="col-md-6 col-lg-3 footer_block">
               <h6 className="footer_block_title">Contactez nous</h6>
               <p>
-                1600 Amphitheatre Parkway
+                Immeuble NEO 2ème étage
                 <br />
-                Mountain View, CA 94043
+                Rue du lac lochness
+                <br/>
+                Les Berges du Lac1
                 <br />
-                Phone: +1 650-253-0000
+                Numéro téléphone: +71 100 000
               </p>
             </div>
             <div className="col-md-6 col-lg-3 footer_block">
@@ -42,10 +39,10 @@ class Footer extends React.Component {
                 <h6 className="footer_block_title">Socials</h6>
                 <p>
                   <a href="#">
-                    <i className="fab fa-twitter-square" />
+                    <i className="fab fa-twitter" />
                   </a>
                   <a href="#">
-                    <i className="fab fa-facebook-square" />
+                    <i className="fab fa-facebook" />
                   </a>
                   <a href="#">
                     <i className="fab fa-youtube" />

@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./Newsletter.css";
 class Newsletter extends React.Component {
   render() {
     return (

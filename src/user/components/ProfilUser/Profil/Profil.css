@@ -2,7 +2,6 @@
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW-vlzxatqDVDAQu4jpEfVlxcT_HXgembwISZjeZMdt2mm2fJv");
     background-repeat: no-repeat;
     background-size: cover;
-  
     text-align: center;
     margin: 5px 15px;
     height: 200px;
@@ -25,6 +24,9 @@
   
   a {
     text-decoration: none;
+    color:black;
+    font-size: 15px;
+    font-weight: 600;
   }
   
   .information {
