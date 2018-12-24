@@ -32,7 +32,7 @@ function AddSearchOraganiz() {
               </div>
             </div>
           </div>
-          <div id="menu1" className="tab-pane fade">
+          <div id="menu1" className="tab-pane fade in active">
             <div className="espace-membre">
               <div className="membre">
                 <Profil />

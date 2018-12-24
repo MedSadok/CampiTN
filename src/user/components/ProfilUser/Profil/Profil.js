@@ -11,7 +11,6 @@ function Profil() {
       <div className="information">
         <a href="">Modifier Profile</a>
         <a href="">Message</a>
-        <a href="">Aide </a>
         <a href="">Devenir Organisateur</a>
         <a href="">Deconnecter</a>
       </div>

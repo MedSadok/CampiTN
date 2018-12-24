@@ -67,7 +67,7 @@ class Contact extends React.Component {
             </div>
             <div className="info">
               <h4>Adresse:</h4>
-              <p id="info" id="info">Immeuble NEO 2ème étage<br/> Rue du lac lochness<br/>Les Berges du Lac1</p>
+              <p id="info" >Immeuble NEO 2ème étage<br/> Rue du lac lochness<br/>Les Berges du Lac1</p>
             </div>
           </div>
         </div>
