@@ -3,6 +3,7 @@ import Header from '../Header/Header';
 import Advantagelist from "../Advantagelist/Advantagelist";
 import Newsletter from "../Newsletter/Newsletter";
 import Footer from "../Footer/Footer";
+import Team from './Team';
 
 
 class Home extends Component {
@@ -11,6 +12,7 @@ class Home extends Component {
       <div className="App">
         <Header />
         <Advantagelist />
+        <Team/>
         <Newsletter />
         <Footer />
     </div>

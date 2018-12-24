@@ -11,28 +11,28 @@ class Nabar extends Component{
                   <Link to ="/"><a><span className="sr-only">Accueil</span></a></Link>
                 </li>
                 <li>
-                  <Link to ="/"><a>A propos</a></Link>
+                  <Link to ="/"><a href="">Accueil</a></Link>
                 </li>
                 <li>
-                  <Link to ="/Randonnée"><a>Randonnées</a></Link>
+                  <Link to ="/Randonnée"><a href="">Randonnées</a></Link>
                 </li>
                 <li >
-                  <Link to ="/"><a>Services</a></Link>
+                  <Link to ="/"><a href="">Services</a></Link>
                 </li>
                 <li>
-                  <Link to ="/"><a>Conseils</a></Link>
+                  <Link to ="/"><a href="">Conseils</a></Link>
                 </li>
                 <li>
-                  <Link to ="/"><a>Photos</a></Link>
+                  <Link to ="/"><a href="">Photos</a></Link>
                 </li>
                 <li>
-                  <Link to ="/ProfilUser"><a>Profile</a></Link>
+                  <Link to ="/ProfilUser"><a href="">Profile</a></Link>
                 </li>
                 <li>
-                  <Link to ="/member-space"><a>Connexion</a></Link>
+                  <Link to ="/member-space"><a href="">Connexion</a></Link>
                 </li>
                 <li>
-                  <Link to ="/Contact"><a>Contact</a></Link>
+                  <Link to ="/Contact"><a href="">Contact</a></Link>
                 </li>
               </ul>
             </div>
