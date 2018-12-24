@@ -44,7 +44,7 @@ body {
     margin: 0 0 10px;
     background-color:#282828 ;
     width: 400px;
-    height: 200px;
+    height: 250px;
   }
   
   .rando-title {
@@ -62,10 +62,24 @@ body {
     justify-content: space-between;
     color:linen;
   }
+  .price{
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    display: flex;
+    justify-content: space-between;
+    color:rgb(238, 202, 93);
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+  }
   .parag {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     font-size: 16px;
     width: 300px;
     color:white;
   }
-  
+  #participer{
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+ 
