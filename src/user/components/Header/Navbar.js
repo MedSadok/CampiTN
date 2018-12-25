@@ -8,25 +8,25 @@ class Nabar extends Component{
              <div className="container-fluid">
               <ul className="nav navbar-nav">
                 <li >
-                  <Link to ="/"><a href=""><span className="sr-only">Accueil</span></a></Link>
+                  <Link to ="/"><a href="/"><span className="sr-only">Accueil</span></a></Link>
                 </li>
                 <li>
-                  <Link to ="/"><a href="">Accueil</a></Link>
+                  <Link to ="/"><a href="/">Accueil</a></Link>
                 </li>
                 <li>
-                  <Link to ="/Randonnée"><a href="">Randonnées</a></Link>
+                  <Link to ="/Randonnée"><a href="/">Randonnées</a></Link>
                 </li>
                 <li >
-                  <Link to ="/"><a href="">Services</a></Link>
+                  <Link to ="/"><a href="/">Services</a></Link>
                 </li>
                 <li>
-                  <Link to ="/"><a href="">Conseils</a></Link>
+                  <Link to ="/"><a href="/">Conseils</a></Link>
                 </li>
                 <li>
-                  <Link to ="/"><a href="">Photos</a></Link>
+                  <Link to ="/Photo"><a href="/">Photos</a></Link>
                 </li>
                 <li>
-                  <Link to ="/ProfilUser"><a href="">Profile</a></Link>
+                  <Link to ="/ProfilUser"><a href="/">Profile</a></Link>
                 </li>
                 <li>
                   <Link to ="/member-space"><a href="">Connexion</a></Link>

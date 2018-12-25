@@ -6,6 +6,7 @@ import Authenticate from './user/components/authentification/Authentification.js
 import ProfilUser from './user/components/ProfilUser/ProfilUser.js';
 import Contact from './user/components/Contact/Contact.js';
 import Randonnee from './user/components/ListRondonee/ListRondonnee.js';
+import Photos from "./user/components/Gallerie/Gallerie";
 
 const Routes = () =>{
     return (
@@ -17,6 +18,7 @@ const Routes = () =>{
         <Route path ="/Randonnée" component={Randonnee}/>
         <Route path ="/ProfilUser" component={ProfilUser}/>
         <Route path ="/Contact" component={Contact}/>
+        <Route path="/Photo" component={Photos}/>
 
         </Switch>
     </Router>);

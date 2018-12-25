@@ -1,6 +1,18 @@
-import React from 'react';
-import {Link} from 'react-router-dom';
+import React,{Component} from 'react';
+import AdminHeader from "./AdminHeader";
+import SideBar from "./SideBar";
+import Content from "./Content";
 
-const Admin =()=><div><Link to="/">Home</Link></div>
+class Admin extends Component {
+    render(){
+        return (
+            <div>
+                <AdminHeader/>
+                <SideBar/>
+                <Content/>
+            </div>
+        );
+    }
+}
 
 export default Admin;

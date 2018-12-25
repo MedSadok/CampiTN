@@ -1,4 +1,3 @@
-import ReactDOM from "react-dom";
 import React, { Component } from "react";
 import AllRandos from "../AllRandos/AllRandos";
 import "./SearchRando.css";
@@ -54,7 +53,7 @@ class SearchRando extends Component {
       <div>
         <div>
           <div className="rando">
-            <form className="example formm" action="/action_page.php">
+            <form className="example formm" action="">
               <input
                 type="text"
                 placeholder="Search.."
@@ -63,7 +62,7 @@ class SearchRando extends Component {
                 onChange={this.SearchRandonnee}
               />
               <button type="submit">
-                <i className="fa fa-search "> search </i>
+                <i className="fa fa-search "> Chercher </i>
               </button>
             </form>
             <div className="allRando">

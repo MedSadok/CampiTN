@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Button, Form, FormGroup, Label, Input, FormText } from "reactstrap";
+import { Button, Form, FormGroup, Label, Input } from "reactstrap";
 import "./FormOrganization.css";
 class FormOrganization extends Component {
   constructor(props) {
@@ -24,12 +24,12 @@ class FormOrganization extends Component {
 
           <FormGroup className="formulairegroupe">
             <Label className="alllabel">Nom de Rando</Label>
-            <Input type="text" name="" id="" placeholder="" />
+            <Input type="text" placeholder="" />
           </FormGroup>
 
           <FormGroup className="formulairegroupe">
             <Label className="alllabel">Point de départ</Label>
-            <Input type="text" name="" id="" placeholder="" />
+            <Input type="text" placeholder="" />
           </FormGroup>
           <FormGroup className="formulairegroupe">
             <Label className="alllabel" for="exampleSelect">
@@ -66,7 +66,7 @@ class FormOrganization extends Component {
 
           <FormGroup className="formulairegroupe">
             <Label className="alllabel">Prix</Label>
-            <Input type="text" name="" id="" placeholder="" />
+            <Input type="text" />
           </FormGroup>
 
           <FormGroup className="formulairegroupe">

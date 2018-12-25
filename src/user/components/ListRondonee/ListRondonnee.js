@@ -45,7 +45,7 @@ const RandoCard = props => {
           </div>
           <span className="price">Prix: {randos.price} DT</span>
           <p className="parag">{randos.descreption}</p>
-          <button type="submit" className="btn btn-success" id="participer">
+          <button type="submit" className="btn btn-warning" id="participer">
             Participer
           </button>
         </div>

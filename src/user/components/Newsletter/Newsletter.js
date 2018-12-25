@@ -8,7 +8,7 @@ class Newsletter extends React.Component {
           <div className="row">
             <div className="col-md-6 d-flex bg_img align_items_center">
               <h2 className="subscribe_title">
-                Campi <span className="col_filed_yel">.tn</span>
+                CAMPI.TN
               </h2>
             </div>
             <div className="col-md-6 clearfix">

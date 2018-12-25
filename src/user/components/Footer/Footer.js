@@ -36,18 +36,18 @@ class Footer extends React.Component {
             </div>
             <div className="col-md-6 col-lg-3 footer_block">
               <div className="social_wg">
-                <h6 className="footer_block_title">Socials</h6>
+                <h6 className="footer_block_title">Social Media</h6>
                 <p>
-                  <a href="#">
+                  <a href="/">
                     <i className="fab fa-twitter" />
                   </a>
-                  <a href="#">
+                  <a href="/">
                     <i className="fab fa-facebook" />
                   </a>
-                  <a href="#">
+                  <a href="/">
                     <i className="fab fa-youtube" />
                   </a>
-                  <a href="#">
+                  <a href="/">
                     <i className="fab fa-instagram" />
                   </a>
                 </p>

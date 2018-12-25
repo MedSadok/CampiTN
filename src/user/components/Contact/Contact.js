@@ -50,7 +50,7 @@ class Contact extends React.Component {
               <button class="btn btn-warning" type="reset" value="Reset" >
                 Reset
               </button>
-              <button type="submit" className="btn btn-primary" value="Submit" id="submit">
+              <button type="submit" className="btn btn-success" value="Submit" id="submit">
                 Submit
               </button>
             </div>

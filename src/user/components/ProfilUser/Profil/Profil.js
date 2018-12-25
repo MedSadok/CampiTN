@@ -8,10 +8,10 @@ function Profil() {
       </div>
       <h3 className="photoprofil">photo de profile</h3>
       <div className="information">
-        <a href="">Modifier Profile</a>
-        <a href="">Message</a>
-        <a href="">Devenir Organisateur</a>
-        <a href="">Deconnecter</a>
+        <a href="/">Modifier Profile</a>
+        <a href="/">Message</a>
+        <a href="/">Devenir Organisateur</a>
+        <a href="/">Deconnecter</a>
       </div>
     </div>
   );
