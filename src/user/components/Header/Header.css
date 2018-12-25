@@ -1,6 +1,6 @@
-.img{
-    max-width:100%;
-    width: 100%;
+.slider-img{
+    width:100vw;
+    max-height:115vh;
   }
   
   .navbar{
@@ -8,29 +8,22 @@
     width:100%;
     background-color:white;
     z-index:10;
-    border-radius:0;
     border-color:transparent;
     box-shadow: 0 4px 2px -3px rgba(29, 29, 29, 0.4);
     display: flex;
     justify-content: center;  
   }
-  .navbar-default .navbar-nav > li > a{
+a{
     color:black;
     text-decoration: none;
     font-size: 16px;
     font-weight: 500;
-    
   }
+
   a:hover{
     display: block;
     position: relative;
     color: #f0b80f;
     transition: all 0.2s ease;
-    text-decoration: none;
-    
-}
-
-.carousel-control{
-  color: #f0b80f;
-  background-color: transparent 
+    text-decoration: none; 
 }

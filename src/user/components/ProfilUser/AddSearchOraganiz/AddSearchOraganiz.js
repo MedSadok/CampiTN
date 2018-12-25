@@ -1,6 +1,4 @@
-
 import React from "react";
-
 import Profil from "../Profil/Profil";
 import FormOrganization from "../FormOrganization/FormOrganization";
 import SearchRando from "../SearchRando/SearchRando";
@@ -10,7 +8,7 @@ function AddSearchOraganiz() {
   return (
     <div className="App">
       <div className="container">
-        <ul className="nav nav-tabs">
+        <ul className="nav nav-tabs navv">
           <li className="active">
             <a data-toggle="tab" href="#home">
               organiser une Rando
@@ -32,7 +30,7 @@ function AddSearchOraganiz() {
               </div>
             </div>
           </div>
-          <div id="menu1" className="tab-pane fade in active">
+          <div id="menu1" className="tab-pane fade ">
             <div className="espace-membre">
               <div className="membre">
                 <Profil />

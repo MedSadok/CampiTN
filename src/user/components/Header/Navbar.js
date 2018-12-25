@@ -5,10 +5,10 @@ class Nabar extends Component{
     render(){
         return(
             <nav className="navbar navbar-default">
-          <div className="container-fluid">
+             <div className="container-fluid">
               <ul className="nav navbar-nav">
                 <li >
-                  <Link to ="/"><a><span className="sr-only">Accueil</span></a></Link>
+                  <Link to ="/"><a href=""><span className="sr-only">Accueil</span></a></Link>
                 </li>
                 <li>
                   <Link to ="/"><a href="">Accueil</a></Link>
