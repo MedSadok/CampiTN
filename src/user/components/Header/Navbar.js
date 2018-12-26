@@ -20,9 +20,6 @@ class Nabar extends Component{
                   <Link to ="/"><a href="/">Services</a></Link>
                 </li>
                 <li>
-                  <Link to ="/"><a href="/">Conseils</a></Link>
-                </li>
-                <li>
                   <Link to ="/Photo"><a href="/">Photos</a></Link>
                 </li>
                 <li>
